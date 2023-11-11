@@ -1,0 +1,276 @@
+li{
+    list-style: none;
+    display: inline-block;
+    color: lightslategray;
+    font-size: 18px;
+    font-weight: bold;
+}
+.real{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    position: relative;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+}
+hr{
+    color: lightslategray;
+}
+.login{
+display: flex;
+justify-content: flex-end;
+  
+height: 50px;   
+width: 50px;    
+    
+}
+.no{
+    color: lightslategray;
+    display: flex;
+    justify-content: center;
+
+}
+.city{
+    display: flex;
+    justify-content: center;
+}
+.bob{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around; 
+    color: #17181c;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 3px;
+     text-transform: uppercase;overflow: hidden;
+transition: all ease 4s; 
+
+
+}
+   
+    .bvb{height: 91.4mm;
+    
+    
+    width: 103.28mm;
+    background: linear-gradient(yellow,orange,pink,purple,blue);
+
+}
+.psg{
+    color: lightslategray;
+}
+.bvb:hover {
+    scale: 1.2;
+}
+.color{
+    color: #83818c;
+    padding: 20px;
+    text-decoration: none;
+    transition:  .3s;
+    margin: 0 6px;
+    z-index: 1;
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 500;
+    position: relative;
+}
+&:before{
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+}
+nav ul li:hover{
+    /* background-color: #0984e3; */
+    /* color: #ffff; */
+    background-color:lightgrey;
+    /* color: #17191c; */
+    color:#222f3d ;
+    
+}
+.foot1{
+    /* background-color: #37475a; */
+    color: white;
+   
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 0.85rem;
+}
+.foot2{
+    background-color:#222f3d ;
+    color: white;
+    height: 520px;
+    display: flex;
+    justify-content: space-evenly ;
+
+}
+
+ul a {
+    display: block;
+    margin: 10px;
+
+    
+}
+.ac{
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s;
+     
+    
+}
+
+.ac:hover{
+     background-color:rgb(13, 0, 128);
+    color: white; 
+    box-shadow: 5px 5px 0px rgb(128, 0, 109);
+
+      
+}
+/* a { color: inherit; }  */
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(94, 111, 117); 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.inter{
+    height: 36px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .account{
+    ackground-position: -34px 0;
+    display: block;
+    height: 22px;
+    width: 22px;
+} */
+.facebook{
+    width: 30px;
+    height: 45px;
+    border-radius: 10px;
+    text-transform: uppercase;overflow: hidden;
+    transition: all ease 0.5s;
+
+}
+.twitter{
+    width: 30px;
+    height: 45px;
+    border-radius: 10px;
+    text-transform: uppercase;overflow: hidden;
+    transition: all ease 0.5s;
+}
+.youtube{
+    width: 35px;
+    height: 45px;
+    border-radius: 10px;
+    text-transform: uppercase;overflow: hidden;
+    transition: all ease 0.5s;
+}
+.insta{
+    width: 30px;
+    height: 45px;
+    border-radius: 10px;
+    text-transform: uppercase;overflow: hidden;
+    transition: all ease 0.5s;
+}
+.op{
+    
+    display: flex;
+    justify-content: space-evenly ;
+    
+}
+/* .op{
+    text-transform: uppercase;overflow: hidden;
+    transition: all ease 0.5s;
+} */
+.facebook:hover {
+   
+    scale: 1.2;
+}
+.youtube:hover {
+   
+    scale: 1.2;
+}
+.twitter:hover {
+   
+    scale: 1.2;
+}
+.insta:hover {
+   
+    scale: 1.2;
+}
+.sidebar{
+    width: 0;
+    height: 100vh;
+    position: absolute;
+    color: #070808;
+    cursor: pointer;
+   
+    
+}
+div.bob{
+    justify-content: space-evenly;
+    color: #070808;
+}
+div.red{
+    justify-content: space-around;
+    display: flex;
+    /* justify-content: center; */
+    
+    color: #070808;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 3px;
+}
+.sidebar li{
+    color: #070808;
+    
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+
+::-webkit-scrollbar-track{
+    background:#ffffff;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#642bff,#ff22e6);
+}
+
+
+
+sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+sidebar::-webkit-scrollbar-track {
+    background:#ffffff;
+    border-radius: 50px;
+}
+
+sidebar::-webkit-scrollbar-thumb {
+    background: linear-gradient(#642bff,#ff22e6);
+}
+
+.sidebar{
+    transition: all ease 0.5s;}
+
+    .lol:hover {
+   
+        scale: 1.1;
+    }
